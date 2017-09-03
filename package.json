@@ -1,0 +1,19 @@
+{
+  "name": "json-path-converter",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha --compilers ts:espower-typescript/guess src/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/power-assert": "^1.4.29",
+    "espower-typescript": "^8.1.0",
+    "mocha": "^3.5.0",
+    "power-assert": "^1.4.4",
+    "tslib": "^1.7.1",
+    "typescript": "^2.4.2"
+  },
+  "directories": {
+    "test": "src/test"
+  }
+}
