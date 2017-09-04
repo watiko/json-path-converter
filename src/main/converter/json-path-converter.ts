@@ -34,7 +34,6 @@ function getSetter(jsonPath: string): Setter {
 
   return function setter(obj: Dict, value: string): void {
     if (!result.status) {
-      (<any> obj['[x]' + jsonPath]) = value;
       return; // fail
     }
 
